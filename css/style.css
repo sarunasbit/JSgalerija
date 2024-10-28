@@ -1,0 +1,32 @@
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem auto;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    list-style: none;
+}
+
+ul li img {
+    height: 21rem;
+    width: 21rem;
+    max-width: 100%;
+    transition: 0.3s ease;
+}
+
+ul li img.sizing--double {
+    transform: scale(2);
+}
+
+
+
+
+
